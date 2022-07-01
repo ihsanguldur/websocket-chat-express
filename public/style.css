@@ -1,0 +1,71 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    border: 2px solid crimson;
+}
+
+#name {
+    background: crimson;
+    color: white;
+    text-align: center;
+    padding-top: .05rem;
+    padding-bottom: .05rem;
+}
+
+#chat-body {
+    height: 600px;
+}
+
+form {
+    margin-bottom: 1rem;
+    border-top: 1px solid crimson;
+}
+
+#text-box {
+    outline: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 70%;
+    font-size: 1rem
+}
+
+#send-button {
+    margin-left: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    width: 20%;
+    background: crimson;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#send-button:hover {
+    background: red;
+    cursor: pointer;
+}
+
+.bubble {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    color: white;
+    clear: both;
+    text-align: center;
+    width: fit-content;
+}
+
+.sender-bubble {
+    background: crimson;
+    float: right;
+    margin-right: 1rem;
+    border-radius: 10px 0 10px 10px;
+}
+
+.receiver-bubble {
+    background: tomato;
+    float: left;
+    margin-left: 1rem;
+    border-radius: 0 10px 10px 10px;
+}
